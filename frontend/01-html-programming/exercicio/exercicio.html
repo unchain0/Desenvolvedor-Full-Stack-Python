@@ -7,6 +7,15 @@
     <style type="text/css">
         body {
             font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        table {
+            border: 1px solid #000000;
+            border-collapse: collapse;
+            margin: 0 auto;
         }
 
         #titulo {
@@ -16,42 +25,40 @@
 </head>
 
 <body bgcolor="#CCCCCC">
-    <!--
-        1. Cabeçalho
-        2. Conteúdo: Imagem, Título 1, Parágrafo, Botão, Parágrafo com texto e link.
-    -->
+<!--
+    1. Cabeçalho
+    2. Conteúdo: Imagem, Título 1, Parágrafo, Botão, Parágrafo com texto e link.
+-->
 
-    <center>
-        <table width="600" bgcolor="#FFFFFF">
-            <tr>
-                <td>
-                    <img src=./imagens\cabecalho.png alt="Cabeçalho" />
-                    <!-- Ideal que seja bem detalhado -->
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
-                    <img src="./imagens\imagem.png" alt="Imagem" />
-                    <h1 id="titulo">Inovação para transformar</h1>
-                    <p style="font-size: 12pt">Além de comunicação, estratégia e planejamento, operamos todos
-                        os processos buscando
-                        pela excelência
-                        operacional e otimização de recursos, seja por meio de inovação da nossa plataforma ou parcerias
-                        estratégicas.
-                    </p>
-                    <p>
-                        <a href="https://vasto.com.br" target="_blank">
-                            <!-- Abre em outra aba -->
-                            <img src="./imagens/botao.png" alt="Botão" />
-                        </a>
-                    </p>
-                    <p style="font-size: 13pt">
-                        Para mais informações acesse: <a href="https://vasto.com.br" target="_blank">vasto.com.br</a>
-                    </p>
-                </td>
-            </tr>
-        </table>
-    </center>
+<table bgcolor="#FFFFFF" width="600">
+    <tr>
+        <td>
+            <img alt="Cabeçalho" src=./imagens/cabecalho.png/>
+            <!-- Ideal que seja bem detalhado -->
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img alt="Imagem" src="./imagens/imagem.png"/>
+            <h1 id="titulo">Inovação para transformar</h1>
+            <p style="font-size: 12pt">Além de comunicação, estratégia e planejamento, operamos todos
+                os processos buscando
+                pela excelência
+                operacional e otimização de recursos, seja por inovação da nossa plataforma ou parcerias
+                estratégicas.
+            </p>
+            <p>
+                <a href="https://vasto.com.br" target="_blank">
+                    <!-- Abre em outra aba -->
+                    <img alt="Botão" src="./imagens/botao.png"/>
+                </a>
+            </p>
+            <p style="font-size: 13pt">
+                Para mais informações acesse: <a href="https://vasto.com.br" target="_blank">vasto.com.br</a>
+            </p>
+        </td>
+    </tr>
+</table>
 
 </body>
 
