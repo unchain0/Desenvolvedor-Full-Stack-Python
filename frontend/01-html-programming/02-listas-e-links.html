@@ -4,6 +4,14 @@
 <head>
     <title>HTML - Listas e Links</title>
     <meta charset="utf-8">
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth"
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -65,14 +73,6 @@
         </li>
         <li>
             <a href="#" onclick="scrollToTop(); return false;">Voltar ao topo</a><br>
-            <script>
-                function scrollToTop() {
-                    window.scrollTo({
-                      top: 0,
-                      behavior: "smooth"
-                    });
-                }
-            </script>
         </li>
         <li>
             <a href="#lista-nao-ordenada">Ver a lista não ordenada</a>
