@@ -4,33 +4,41 @@
 <head>
     <title>Exercício</title>
     <meta charset="UTF-8">
-    <style type="text/css">
+    <style>
         body {
             font-family: sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: #CCCCCC;
         }
 
         table {
             border: 1px solid #000000;
             border-collapse: collapse;
             margin: 0 auto;
+            background-color: #FFFFFF;
+            width: 600px;
         }
 
         #titulo {
             color: #5f3aa2;
         }
+
+        #content {
+            padding: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 
-<body bgcolor="#CCCCCC">
+<body>
 <!--
     1. Cabeçalho
     2. Conteúdo: Imagem, Título 1, Parágrafo, Botão, Parágrafo com texto e link.
 -->
 
-<table bgcolor="#FFFFFF" width="600">
+<table>
     <tr>
         <td>
             <img alt="Cabeçalho" src=./imagens/cabecalho.png/>
@@ -38,7 +46,7 @@
         </td>
     </tr>
     <tr>
-        <td align="center">
+        <td id="content">
             <img alt="Imagem" src="./imagens/imagem.png"/>
             <h1 id="titulo">Inovação para transformar</h1>
             <p style="font-size: 12pt">Além de comunicação, estratégia e planejamento, operamos todos
