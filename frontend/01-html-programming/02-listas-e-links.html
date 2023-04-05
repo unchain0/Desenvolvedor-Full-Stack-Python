@@ -64,7 +64,15 @@
             <a href="https://ebaconline.com.br">EBAC</a><br>
         </li>
         <li>
-            <a href="#top">Voltar ao topo</a><br>
+            <a href="#" onclick="scrollToTop(); return false;">Voltar ao topo</a><br>
+            <script>
+                function scrollToTop() {
+                    window.scrollTo({
+                      top: 0,
+                      behavior: "smooth"
+                    });
+                }
+            </script>
         </li>
         <li>
             <a href="#lista-nao-ordenada">Ver a lista não ordenada</a>
